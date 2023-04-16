@@ -1,0 +1,6 @@
+﻿  Iterator.cpp
+  List.cpp
+  Source.cpp
+  Создание кода...
+C:\Users\HP\Desktop\классы\л6\Laba_6\List.cpp(248): warning C4715: List::operator[]: значение возвращается не при всех путях выполнения
+  Laba_6.vcxproj -> C:\Users\HP\Desktop\классы\л6\Laba_6\x64\Debug\Laba_6.exe
