@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\HP\Desktop\классы\Project3\Source.cpp(13,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project3.vcxproj -> C:\Users\HP\Desktop\классы\Project3\x64\Debug\Project3.exe
