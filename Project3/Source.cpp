@@ -16,14 +16,14 @@ private:
 public:
 	money()
 	{
-		cout << "Вызвался крнструктор без параметров " << this << endl;
+		cout << "Konstr without par " << this << endl;
 		this->sum = 0.0;
 		this->rub = 0;
 		this->kop = 0;
 	};
 	money(double sum)
 	{
-		cout << "\nВызвался крнструктор c параметрами " << this << endl;
+		cout << "\nKonstr with par " << this << endl;
 		this->sum = sum;
 		split(sum);
 	}
@@ -50,19 +50,19 @@ public:
 
 	void print()
 	{
-		cout << "\nСумма: " << rub << "," << kop << endl;
+		cout << "\nAmount: " << rub << "," << kop << endl;
 	}
 
 	~money()
 	{
-		cout << "\nВызвался деструктор " << this;
+		cout << "\nDestr " << this;
 		cout << endl;
 	}
 };
 
 ostream& operator<<(ostream& stream, const money& m)
 {
-	stream <<"\nРубли: " << m.rub << "\nКопейки: " << m.kop;
+	stream <<"\nRubles: " << m.rub << "\nKopecks: " << m.kop;
 	return stream;
 };
 
@@ -74,22 +74,22 @@ int main()
 	money one;
 	one.print();
 
-	cout << "\n\nВведите сумму(double): ";
+	cout << "\n\nEnter the amount(double): ";
 	cin >> sum;
 	money two(sum);
 	two.print();
 
-	cout << "\nВведите дробное число, которое нужно вычесть из суммы: ";
+	cout << "\nEnter the fractional number to be subtracted from the sum: ";
 	cin >> sub;
 
 	money tre = sum - sub;
 	tre.print();
 
 	bool res = two == tre;
-	cout << "\nРезультат сравнения сумм ==(1 - равны; 0 - неравны): " << res << endl;
+	cout << "\nResult of comparing amounts ==(1 - equal; 0 - unequal): " << res << endl;
 
 	bool res2 = two != tre;
-	cout << "\nРезультат сравнения сумм !=(0 - равны; 1 - неравны): " << res2 << endl;
+	cout << "\nResult of comparing amounts !=(1 - equal; 0 - unequal): " << res2 << endl;
 
 	cout << two;
 
