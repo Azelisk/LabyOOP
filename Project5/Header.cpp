@@ -99,11 +99,11 @@ Time& Time:: operator=(const Time& t)
 
 istream& operator>>(istream& is, Time& t)
 {
-	cout << endl << "Введите часы: ";
+	cout << endl << "Enter the clock: ";
 	is >> t.first;
-	cout << "Введите минуты: ";
+	cout << "Enter minutes: ";
 	is >> t.second;
-	cout << "Введите секунды: ";
+	cout << "Enter seconds: ";
 	is >> t.third;
 	return is;
 }
@@ -125,7 +125,7 @@ void Vector:: fillVector(triad* p)
 ostream& operator<<(ostream& os, Vector& v)
 {
 	if (v.size == 0)
-		cout << "\nВектор пуст";
+		cout << "\nThe vector is empty";
 	else
 	{
 		triad** p = v.obj;

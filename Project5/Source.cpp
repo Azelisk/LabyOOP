@@ -9,23 +9,23 @@ int main()
 	Time tim;
 	int x, y, z;
 
-	cout << "Введите триаду:\n";
-	cout << "Введите первое число триады: ";
+	cout << "Enter the triad:\n";
+	cout << "Enter the first number of the triad: ";
 	cin >> x;
 	tr.setFirst(x);
 
-	cout << "Введите второе число триады: ";
+	cout << "Enter the second number of the triad: ";
 	cin >> y;
 	tr.setSecond(y);
 
-	cout << "Введите третье число триады: ";
+	cout << "Enter the third number of the triad: ";
 	cin >> z;
 	tr.setThird(z);
 
-	cout << "Триада: ";
+	cout << "Triad: ";
 	tr.print();
 
-	cout << "\n\nВведите время:\n";
+	cout << "\n\nEnter the time:\n";
 	cin >> tim;
 	cout << tim;	
 
@@ -35,7 +35,7 @@ int main()
 	pr = &tim;
 	vec.fillVector(pr);
 	
-	cout << "\n\nВектор:\n";
+	cout << "\n\nVector:\n";
 	cout << vec;
 
 	return 0;
