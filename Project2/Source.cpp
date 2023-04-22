@@ -11,7 +11,7 @@ private:
 public:
 	employe()
 	{
-		cout << "\nВызвался конструктор без параметров "<<this<<endl;
+		cout << "\nKonsr without par "<<this<<endl;
 		this->name = "...";
 		this->position = "...";
 		this->salary = 0.0;
@@ -20,7 +20,7 @@ public:
 	
 	employe(string name, string position, double salary)
 	{
-		cout<< "\nВызвался конструктор c параметрами " << this << endl;
+		cout<< "\nKonst withn par " << this << endl;
 		this->name = name;
 		this->position = position;
 		this->salary = salary;
@@ -29,7 +29,7 @@ public:
 
 	employe(const employe& men)
 	{
-		cout << "\nВызвался конструктор копирования " << this << endl;
+		cout << "\nKonstr Copy " << this << endl;
 		this->name = men.name;
 		this->position = men.position;
 		this->salary = men.salary;
@@ -64,14 +64,14 @@ public:
 
 	void print()
 	{
-		cout << "ФИО: " << name << endl;
-		cout << "Должность: " << position << endl;
-		cout << "Оклад: " << salary << endl;
+		cout << "Full name: " << name << endl;
+		cout << "Position: " << position << endl;
+		cout << "Salary: " << salary << endl;
 	}
 
 	~employe()
 	{
-		cout << "\nВызвался деструктор " << this;
+		cout << "\nDestr " << this;
 		cout << endl;
 	}
 };
@@ -84,28 +84,28 @@ int main()
 	string name, position;
 	double salary;
 
-	human1.print();//без параметров
+	human1.print();
 
-	cout << "\nВведите ФИО первого человека: ";
+	cout << "\nEnter the first person's full name: ";
 	getline(cin,name);
-	cout << "Введите должность первого человека: ";
+	cout << "Enter the position of the first person: ";
 	getline(cin, position);
-	cout << "Введите оклад первого человека: ";
+	cout << "Enter the salary of the first person: ";
 	cin >> salary;
 	cin.get();
 
-	employe human2(name, position, salary);//с параметрами
+	employe human2(name, position, salary);
 	human2.print();
 
-	employe human3 = human2;//копирования
+	employe human3 = human2;
 	human3.print();
 
 	cout << "------------------------------\n";
-	cout << "\nВведите ФИО второго человека: ";
+	cout << "\nEnter the full name of the second person: ";
 	getline(cin, name);
-	cout << "Введите должность второго человека: ";
+	cout << "Enter the position of the second person: ";
 	getline(cin, position);
-	cout << "Введите оклад второго человека: ";
+	cout << "Enter the salary of the second person: ";
 	cin >> salary;
 	cin.get();
 
