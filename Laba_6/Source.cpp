@@ -16,15 +16,15 @@ int main()
 
 	c = a * b;
 
-	cout << "Список c: "; c.show_list();
-	cout << "Размер: " << c() << endl << endl;
+	cout << "List c: "; c.show_list();
+	cout << "Size: " << c() << endl << endl;
 
-	cout << "вывод c[0]: " << c[0] << endl;
-	cout << "присвоить c[0] = 150" << endl; c[0] = 150;
+	cout << "enter c[0]: " << c[0] << endl;
+	cout << "assign c[0] = 150" << endl; c[0] = 150;
 
-	cout << "Список c: "; c.show_list(); 
+	cout << "List c: "; c.show_list(); 
 
-	cout << "\nСписок a: ";
+	cout << "\nList a: ";
 	for (auto it = a.first(); it != a.last(); ++it)
 		cout << (*it) << " ";
 	cout << endl;

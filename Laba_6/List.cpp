@@ -96,7 +96,7 @@ void List::pop_back()
 			head = nullptr;
 		--size;
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 void List::show_list()
 {
@@ -180,9 +180,9 @@ void List::add_after(int number, int data)
 				}
 			}
 		}
-		else { system("cls"); cout << "Ошибка ввода!\n\n"; }
+		else { system("cls"); cout << "Mistake!\n\n"; }
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 void List::pop_element(int number)
 {
@@ -221,9 +221,9 @@ void List::pop_element(int number)
 				--size;
 			}
 		}
-		else { system("cls"); cout << "Ошибка ввода!\n\n"; }
+		else { system("cls"); cout << "Mistake!\n\n"; }
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 
 int& List::operator[](const int index) const
