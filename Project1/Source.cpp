@@ -14,13 +14,13 @@ int main()
 	fraction one;
 	double x1, y1;
 
-	cout << "Введите координаты первой точки:\n";
+	cout << "Enter the coordinates of the first point:\n";
 	one.Write();
 	one.Show();
 
-	cout << "\nВведите координаты доп.точки(x;y):\n";
+	cout << "\nEnter the coordinates of the additional point(x;y):\n";
 	cin >> x1 >> y1;
-	cout << "\nРасстояние между точками: " << one.schet(x1, y1);
+	cout << "\nDistance between points: " << one.schet(x1, y1);
 
 	return 0;
 }
