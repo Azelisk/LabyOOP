@@ -55,7 +55,7 @@ void Dialog::GetEvent(TEvent& event)
 
 int Dialog::Execute()
 {
-	cout << "Нажмите m чтобы создать список.\nНажмите + чтобы добавить.\nНажмите - чтобы  удалить последнего.\nНажмите z чтобы вывелся средний возраст людей в списке.\nНажмите s чтобы вывести информацию.\nНажмите q чтобы завершить работу.";
+	cout << "Click 'm' to create a list.\nClick '+' to add.\nClick '-' to delete the last one.\nClick 'z' to display the average age of the people in the list.\nClick 's' to display the information.\nClick 'q' to shut down.";
 	TEvent event;
 	do {
 		EndState = 0;
