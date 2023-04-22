@@ -17,18 +17,18 @@ int main()
 		b.push_back(i-1);
 	}
 
-	cout << "Лист а:\n";
+	cout << "List а:\n";
 	a.show_list();
 
-	cout << "\nЛист b:\n";
+	cout << "\nList b:\n";
 	b.show_list();
 
-	cout << "\nЛист с = a*b :\n";
+	cout << "\nList с = a*b :\n";
 	c = a * b;
 	c.show_list();
-	cout << "\nРазмер листа c: " << c() << endl << endl;
-	cout << "\nприсвоить c[5] = 150" << endl; c[5] = 150;
-	cout << "\nЛист с:\n";
+	cout << "\nList size c: " << c() << endl << endl;
+	cout << "\nassign c[5] = 150" << endl; c[5] = 150;
+	cout << "\nList с:\n";
 	c.show_list();
 
 	List<Pair> p;
@@ -36,12 +36,12 @@ int main()
 
 	for (int i = 0; i < 3; i++)
 	{
-		cout << "\nВведите пару:\n";
+		cout << "\nEnter a pair:\n";
 		cin >> x;
 		p.push_back(x);
 	}
 
-	cout << "\nСписок p: ";
+	cout << "\nList p: ";
 	p.show_list();
 
 	return 0;

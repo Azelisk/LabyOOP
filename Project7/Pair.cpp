@@ -85,6 +85,4 @@ istream& operator>>(istream& in, Pair& ob)
 	return in;
 }
 
-Pair::~Pair()
-{
-}
+Pair::~Pair() { }

@@ -140,7 +140,7 @@ void List<T>::pop_front()
 	}
 	else
 	{
-		system("cls"); cout << "Список пуст!\n\n";
+		system("cls"); cout << "List is empty!\n\n";
 	}
 }
 template <typename T>
@@ -175,7 +175,7 @@ void List<T>::pop_back()
 			head = nullptr;
 		--size;
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 template <typename T>
 void List<T>::show_list()
@@ -198,7 +198,7 @@ void List<T>::show_list()
 		}
 		case 2:
 		{
-			cout << "Список: ";
+			cout << "List: ";
 			Node* current = tail;
 			for (size_t i = size; i > 0; i--)
 			{
@@ -209,11 +209,11 @@ void List<T>::show_list()
 			break;
 		}
 		default:
-			system("cls"); cout << "Ошибка ввода!\n";
+			system("cls"); cout << "Mistke!\n";
 			break;
 		}
 	}
-	else { system("cls"); cout << "Список пуст!\n"; }
+	else { system("cls"); cout << "List is empty!\n"; }
 }
 template <typename T>
 void List<T>::add_after(int number, T data)
@@ -256,9 +256,9 @@ void List<T>::add_after(int number, T data)
 				}
 			}
 		}
-		else { system("cls"); cout << "Ошибка ввода!\n\n"; }
+		else { system("cls"); cout << "Mistake!\n\n"; }
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 template <typename T>
 void List<T>::pop_element(int number)
@@ -298,9 +298,9 @@ void List<T>::pop_element(int number)
 				--size;
 			}
 		}
-		else { system("cls"); cout << "Ошибка ввода!\n\n"; }
+		else { system("cls"); cout << "Mistake!\n\n"; }
 	}
-	else { system("cls"); cout << "Список пуст!\n\n"; }
+	else { system("cls"); cout << "List is empty!\n\n"; }
 }
 
 template <typename T>
