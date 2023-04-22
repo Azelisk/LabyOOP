@@ -4,38 +4,38 @@ int main()
 {
 	system("chcp 1251 >> null");
 	int x, y, z;
-	cout << "Введите три целых числа: ";
+	cout << "Enter three integers: ";
 	cin >> x >> y >> z;
 	triad tr1(x, y, z);
-	cout << "\nПервая триада: ";
+	cout << "\nThe first triad: ";
 	tr1.print();
 
-	cout << "\n\nВведите три целых числа: ";
+	cout << "\n\nEnter three integers: ";
 	cin >> x >> y >> z;
 	triad tr2(x, y, z);
-	cout << "\nВторая триада: ";
+	cout << "\nThe second triad: ";
 	tr2.print();
 
 	if (tr1 == tr2)
-		cout << "\nТриады равны\n";
+		cout << "\nTriads are equal\n";
 	else
-		cout << "\nТриады не равны\n";
+		cout << "\nTriads are unequal\n";
 
 	Time t1;
 	cin >> t1;
-	cout << "\nВведённое время: "<<t1;
+	cout << "\nEntered time: "<<t1;
 
 	Time t2;
-	cout << "\n\nВведите новое время\n";
+	cout << "\n\nEnter a new time\n";
 	cin >> t2;
-	cout << "\nВведённое время: " << t2;
+	cout << "\nEntered time: " << t2;
 
 	if (t1 > t2)
-		cout << "\n\nПервое время больше\n" << t1;
+		cout << "\n\nThe first time is more\n" << t1;
 	else if (t1 < t2)
-		cout << "\n\nВторое время больше\n"<<t2;
+		cout << "\n\nThe second time is longer\n"<<t2;
 	else
-		cout << "\nВременные промежутки равны" << t1 << " = " << t2;
+		cout << "\nThe time intervals are equal" << t1 << " = " << t2;
 
 	Time t3 = t2;
 	cout << endl<<endl<<t3;

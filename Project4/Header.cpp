@@ -99,11 +99,11 @@ Time& Time:: operator=(const Time& t)
 
 istream& operator>>(istream& is, Time& t)
 {
-	cout << endl << "¬ведите часы: ";
+	cout << endl << "Enter the clock: ";
 	is >> t.first;
-	cout << "¬ведите минуты: ";
+	cout << "Enter minutes: ";
 	is >> t.second;
-	cout << "¬ведите секунды: ";	
+	cout << "Enter seconds: ";	
 	is >> t.third;
 	return is;
 }
