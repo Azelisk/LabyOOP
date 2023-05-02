@@ -1,0 +1,15 @@
+﻿  Source.cpp
+C:\Users\HP\Desktop\классы\Project11\Ex1.h(75,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\Ex2.h(93,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\Ex3.h(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\Ex4.h(73,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\Ex4.h(135,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\Ex5.h(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\List.h(69,6): warning C4552: "-": результат выражения не используется
+C:\Users\HP\Desktop\классы\Project11\List.h(60,1): message : во время компиляции функции-члена класс шаблон "List<Pair>::List(int)"
+C:\Users\HP\Desktop\классы\Project11\Ex3.h(15,13): message : выполняется компиляция ссылки на экземпляр шаблон функции "List<Pair>::List(int)"
+C:\Users\HP\Desktop\классы\Project11\Ex3.h(15,16): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair>"
+C:\Users\HP\Desktop\классы\Project11\List.h(105,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Project11\List.h(97,1): message : во время компиляции функции-члена класс шаблон "void List<Pair>::sr_zn(void)"
+C:\Users\HP\Desktop\классы\Project11\Ex3.h(22,10): message : выполняется компиляция ссылки на экземпляр шаблон функции "void List<Pair>::sr_zn(void)"
+  Project11.vcxproj -> C:\Users\HP\Desktop\классы\Project11\x64\Debug\Project11.exe
