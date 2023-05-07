@@ -1,0 +1,88 @@
+﻿  Source.cpp
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex1.h(33,32): warning C4244: аргумент: преобразование "unsigned __int64" в "double", возможна потеря данных
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex1.h(76,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex2.h(52,24): warning C4267: /=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex2.h(127,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex3.h(45,74): warning C4244: аргумент: преобразование "unsigned __int64" в "double", возможна потеря данных
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex3.h(66,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(172,48): warning C4267: инициализация: преобразование из "size_t" в "_Ty1"; возможна потеря данных
+          with
+          [
+              _Ty1=const int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(673,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const int,Pair>::pair<_Ty,Pair,0>(_Other1 &&,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=unsigned __int64,
+              _Other2=Pair
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(680,47): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const int,Pair>::pair<_Ty,Pair,0>(_Other1 &&,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=unsigned __int64,
+              _Other2=Pair
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(806,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,Pair>(_Alloc &,_Objty *const ,unsigned __int64 &&,Pair &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Pair>>>::void_pointer>>,
+              _Ty=std::pair<const int,Pair>,
+              _Objty=std::pair<const int,Pair>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(807,34): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,Pair>(_Alloc &,_Objty *const ,unsigned __int64 &&,Pair &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Pair>>>::void_pointer>>,
+              _Ty=std::pair<const int,Pair>,
+              _Objty=std::pair<const int,Pair>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(994,20): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,Pair>(_Alnode &,std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,Pair &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,Pair>>,
+              _Ty=unsigned __int64,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Pair>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1010,46): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,Pair>(_Alnode &,std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,Pair &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,Pair>>,
+              _Ty=unsigned __int64,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Pair>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1031,20): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<unsigned __int64,_Ty>(unsigned __int64 &&,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,Pair>>,
+              _Kty=int,
+              _Ty=Pair,
+              _Pr=std::less<int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1032,30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const int,Pair>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<unsigned __int64,_Ty>(unsigned __int64 &&,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,Pair>>,
+              _Kty=int,
+              _Ty=Pair,
+              _Pr=std::less<int>
+          ]
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex3.h(45,76): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,Pair>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<unsigned __int64,Pair>(unsigned __int64 &&,Pair &&)"
+          with
+          [
+              _Kty=int,
+              _Ty=Pair,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Pair>>
+          ]
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex3.h(45,13): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,Pair>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<unsigned __int64,Pair>(unsigned __int64 &&,Pair &&)"
+          with
+          [
+              _Kty=int,
+              _Ty=Pair,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Pair>>
+          ]
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\Ex3.h(48): warning C4715: add_average: значение возвращается не при всех путях выполнения
+  Project13.vcxproj -> C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\x64\Debug\Project13.exe

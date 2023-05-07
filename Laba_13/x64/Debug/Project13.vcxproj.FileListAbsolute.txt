@@ -1,0 +1,3 @@
+C:\Users\HP\Desktop\классы\Project13\x64\Debug\Project13.exe
+C:\Users\Владимир\Desktop\Политех\Инфа\Лабораторные работы классы\Лаба 13\Код\x64\Debug\Project13.exe
+C:\Users\HP\Desktop\классы\Лабы Вовы\OOP\Laba_13\x64\Debug\Project13.exe
